@@ -1,3 +1,4 @@
+import br.com.gio.bootcamp.dominio.Conteudo;
 import br.com.gio.bootcamp.dominio.Curso;
 import br.com.gio.bootcamp.dominio.Mentoria;
 
@@ -14,6 +15,10 @@ public class App {
 
         Mentoria mentoria = new Mentoria("Mentoria Java", "Descrição de mentoria Java", LocalDate.now());
         System.out.println(mentoria);
+
+        Conteudo conteudo1 = new Curso();
+
+
 
     }
 }
