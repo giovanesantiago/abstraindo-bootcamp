@@ -16,7 +16,8 @@ public class App {
         Mentoria mentoria = new Mentoria("Mentoria Java", "Descrição de mentoria Java", LocalDate.now());
         System.out.println(mentoria);
 
-        Conteudo conteudo1 = new Curso();
+        Conteudo conteudoCurso = new Curso();
+        Conteudo conteudoMentoria = new Mentoria();
 
 
 
