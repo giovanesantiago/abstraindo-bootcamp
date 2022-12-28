@@ -1,4 +1,7 @@
 import br.com.gio.bootcamp.dominio.Curso;
+import br.com.gio.bootcamp.dominio.Mentoria;
+
+import java.time.LocalDate;
 
 public class App {
     public static void main(String[] args) {
@@ -8,6 +11,9 @@ public class App {
 
         System.out.println(curso1);
         System.out.println(curso2);
+
+        Mentoria mentoria = new Mentoria("Mentoria Java", "Descrição de mentoria Java", LocalDate.now());
+        System.out.println(mentoria);
 
     }
 }
