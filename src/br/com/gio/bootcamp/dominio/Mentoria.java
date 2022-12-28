@@ -9,6 +9,14 @@ public class Mentoria {
     private LocalDate data;
 
 
+    public Mentoria() {
+    }
+
+    public Mentoria(String titulo, String descricao, LocalDate data) {
+        this.titulo = titulo;
+        this.descricao = descricao;
+        this.data = data;
+    }
 
     public String getTitulo() {
         return titulo;
